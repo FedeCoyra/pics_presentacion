@@ -1,11 +1,17 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Presentación Ejecutiva PICS 🚦
 
-To start the slide show:
+Esta presentación interactiva fue construida utilizando [Slidev](https://sli.dev/), un framework para presentaciones basadas en desarrolladores web.
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
+## 📋 Requisitos Previos
 
-Edit the [slides.md](./slides.md) to see the changes.
+Para poder correr esta presentación en tu computadora, necesitas tener instalado:
+- **Node.js** (versión 18 o superior). Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## 🚀 Instalación y Ejecución
+
+Sigue estos pasos para levantar la presentación localmente:
+
+1. **Abre la terminal** y ubícate dentro de la carpeta de esta presentación (donde se encuentra este archivo y el `package.json`).
+2. **Instala las dependencias** necesarias ejecutando:
+   ```bash
+   npm install
