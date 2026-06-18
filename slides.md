@@ -20,7 +20,7 @@ mdc: true
 </div>
 
 <div class="absolute bottom-10 left-0 right-0 text-sm text-gray-500 bg-black/50 py-2 backdrop-blur-sm">
-  Municipio de Moreno | Presentación Ejecutiva
+  Municipio de Moreno | Presentación
 </div>
 
 <style>
