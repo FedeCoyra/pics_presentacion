@@ -15,3 +15,14 @@ Sigue estos pasos para levantar la presentación localmente:
 2. **Instala las dependencias** necesarias ejecutando:
    ```bash
    npm install
+   ```
+
+3. **Ejecuta la presentación** utilizando el siguiente comando de Slidev:
+   ```bash
+   npx @slidev/cli slides.md
+   ```
+
+   O alternativamente mediante el script de Node configurado:
+   ```bash
+   npm run dev
+   ```
