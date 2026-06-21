@@ -1,0 +1,99 @@
+/* Global Styles for PICS Presentation - Dashboard Theme */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+.slidev-layout {
+  background-color: #030712 !important;
+  background-image: radial-gradient(circle at 50% 50%, rgba(0, 170, 255, 0.07) 0%, transparent 80%) !important;
+  color: #e0e0e0 !important;
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif !important;
+  padding: 3rem !important;
+}
+
+.slidev-layout h1 {
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 2.25rem !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
+  border-bottom: 2px solid transparent !important;
+  border-image: linear-gradient(90deg, #00aaff 0%, rgba(0, 170, 255, 0.02) 100%) 1 !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Remove bottom border on center layouts */
+.slidev-layout.text-center h1,
+.slidev-layout.center h1,
+.slidev-layout.layout-center h1,
+.slidev-layout.layout-cover h1 {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+.slidev-layout h2 {
+  color: #ffffff;
+}
+
+.slidev-layout h3 {
+  color: #ffffff;
+}
+
+.slidev-layout p, .slidev-layout li {
+  color: #d1d5db;
+}
+
+/* Custom list bullet styling */
+.slidev-layout ul li {
+  position: relative;
+  list-style-type: none !important;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.slidev-layout ul li::before {
+  content: "▪";
+  position: absolute;
+  left: 0;
+  color: #00aaff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  top: 0.1rem;
+}
+
+/* Force celeste color on titles and highlighted elements */
+.text-accent,
+.text-\[\#00aaff\] {
+  color: #00aaff !important;
+}
+
+.slidev-layout strong {
+  color: #00aaff !important;
+}
+
+/* Custom Card stylings to match PICS Dashboard */
+.pics-card {
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  border-radius: 0.75rem;
+  background-color: rgba(13, 21, 39, 0.45) !important;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.3s ease;
+  padding: 10px;
+}
+
+.pics-card:hover {
+  border-color: rgba(0, 170, 255, 0.4) !important;
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.15) !important;
+  transform: translateY(-2px);
+}
+
+/* Premium Image effects on hover */
+.slidev-layout img {
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.slidev-layout img:hover {
+  transform: scale(1.02) translateY(-2px) !important;
+  border-color: rgba(0, 170, 255, 0.5) !important;
+  box-shadow: 0 10px 30px rgba(0, 170, 255, 0.2) !important;
+}
